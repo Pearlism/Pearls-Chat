@@ -40,7 +40,7 @@ signupForm.addEventListener("submit", (e) => {
 
 const register = async (payload) => {
     try {
-        const res = await fetch("https://pearls-chat.onrender.com/user/signup", {
+        const res = await fetch("https://landen419.com/user/signup", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -87,7 +87,7 @@ loginForm.addEventListener("submit", (e) => {
 
 const login = async (payload) => {
     try {
-        const res = await fetch("https://pearls-chat.onrender.com/user/login", {
+        const res = await fetch("https://landen419.com/user/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
